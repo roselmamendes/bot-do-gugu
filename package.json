@@ -1,0 +1,22 @@
+{
+  "name": "bot-do-gugu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node --inspect -r dotenv/config index.js"
+  },
+  "keywords": [
+    "gugu",
+    "bot",
+    "game"
+  ],
+  "author": "Wagner Palacio Pessoa",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.3.1"
+  }
+}
