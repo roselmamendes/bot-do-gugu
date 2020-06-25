@@ -4,6 +4,9 @@ node_js:
 branches:
   only:
     - master
+
+notifications:
+  email: false
 deploy:
   provider: heroku
   api_key:

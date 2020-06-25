@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
+    "test": "echo 'tem pra que testar ainda nao'",
     "start": "node index.js",
     "start:dev": "node --inspect -r dotenv/config index.js"
   },
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "jest": "^26.1.0",
     "prettier": "^2.0.5"
   }
 }
