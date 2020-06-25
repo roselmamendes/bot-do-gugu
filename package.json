@@ -18,7 +18,8 @@
   "dependencies": {
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
-    "eslint": "^7.3.1"
+    "eslint": "^7.3.1",
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
