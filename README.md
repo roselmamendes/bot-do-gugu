@@ -1,3 +1,6 @@
+
+[![Build Status](https://travis-ci.org/palaciowagner/bot-do-gugu.svg?branch=master)](https://travis-ci.org/palaciowagner/bot-do-gugu)
+
 # bot-do-gugu
 
 Bot do Discord para a brincadeira do saudoso "Gugu Na Minha Casa", que toda criança 90/2000zinha já quis participar
