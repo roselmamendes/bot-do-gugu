@@ -1,2 +1,2 @@
 web: echo "I ain't web"
-service: npm start
+worker: npm start
