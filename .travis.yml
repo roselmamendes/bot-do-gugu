@@ -1,13 +1,12 @@
 language: node_js
 node_js:
-  - 12
+- 12
 branches:
   only:
-    - master
-
+  - master
 notifications:
   email: false
 deploy:
   provider: heroku
   api_key:
-    secure: '$HEROKU_API_KEY'
+    secure: Z6rqBp75Ze6Htt2YTtbdCTZwb1M1wFnMmjnuY8nAONyvFKlUa33n4gkVmhMVZB1BoFz2ilWkin4l08z1BViRC6dGfLhVxJvYUvU2JybcZSdnIwaYLfF+naUPfGTEsbkZ04hDGcbUEzKV0whTQpN7ie3hHB+S/zlWyOl4WK1eBW21VKeSuOG7z8LZ5+CEGIHw0iD97lCuPC9wURtFnj/ArBGMjZpR2MRLK1Irksvapnors6oJqMrNDIa1pzIMIRYGlrRCJ7xu6F/l4TURN0hgITc6LTdXuo3Y4s91ccX62JarvciUAhso4OxhKWREDZIrHgMr8AdZVG3yJoBwH89on1JshIw93TEtN1SL91zyk+3KDXCEn+XYHsdnvbEgKv8Cd0Mr2R5FrTiJKl96hbcnbGLq62AmE5DOTQhWDORw7+xj/lVnTpAcCHzvNspK1XOknulb3BrJ5isjTnOVoyVfuqLHNndA9GtCsRYzo8kD7AbJkKhkUmXgUKwnbLTJ7RoRdFuU8Gwl81H9h1f0KKQV38tvKu4acb9srQF8zw/4Q9KaKH5EksVZzz+vlEmkrv+VQa1iZBMANu3l/YyGbXvZ2brXSSAuCW+jZDGbuqhoAnYIgNm1NuIMFKQBYc5A8X+VPJsrkrM5q+F0R5xM3VQ863cjrENxtwf0ANJ2SOCkRwo=
