@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'tem pra que testar ainda nao'",
+    "test": "../node_modules/.bin/jest",
     "start": "node index.js",
     "start:dev": "node --inspect -r dotenv/config index.js"
   },
